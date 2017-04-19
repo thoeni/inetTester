@@ -1,3 +1,9 @@
+build
 out/
+.gradle
 .idea
 *.iml
+/bin/
+.settings/
+.classpath
+.project
