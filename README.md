@@ -5,6 +5,7 @@ I had few issues after upgrading from MacOS X El Capitan to MacOS Sierra and now
 
 ### Usage:
 `java -jar bin/inetTester.jar`
+`java -Ddomain=www.example.org -jar bin/inetTester.jar`
 
 #### Solution to the issue:
 If the call is slow on your Mac (or other OS?) it could be solved by adding the hostname that the application will return on your hosts file, pointing to 127.0.0.1 like:
